@@ -1,3 +1,8 @@
-#Write a program to count the number of zeroes in following tuple.
-a = (7, 0, 8, 0 ,0, 9)
-print(a.count(0))
+# Write a python function to print first n  lines of the following patterns.
+# * * *
+# * *
+# *
+
+n = 3
+for i in range(n):
+    print("*"*(n-i))    # prints star * n-i times

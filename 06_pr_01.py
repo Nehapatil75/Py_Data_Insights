@@ -1,14 +1,15 @@
-# Wite a program to store seven fruits in a list entered by the users
-
-
-
-
-f1 = input("Enter Fruit Number 1")
-f2 = input("Enter Fruit Number 2")
-f3 = input("Enter Fruit Number 3")
-f4 = input("Enter Fruit Number 4")
-f5 = input("Enter Fruit Number 5")
-f6 = input("Enter Fruit Number 6")
-f7 = input("Enter Fruit Number 7")
-myFruitlist = [f1,f2,f3,f4,f5,f6,f7]
-print(myFruitlist)
+# Write a program using function to find greatest of three numbers.
+def maximum(num1,num2,num3):
+    if(num1>num2):
+        if(num1>num3):
+            return num1
+        else:
+            return num3
+    else:
+        if(num2>num3):
+            return num2
+        else:
+            return num3
+m = maximum(13,55,2)
+print("The value of the maximum is" +str(m))
+            
