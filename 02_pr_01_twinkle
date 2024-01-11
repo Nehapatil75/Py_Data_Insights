@@ -1,0 +1,14 @@
+
+
+'''
+This problem is solution of practice set of que no 1 of  codewithharry 
+'''
+
+
+
+#This is also a comment just like a above line#
+
+print('''TWINKLE, twinkle, little star,
+How I wonder what you are !
+Up above the world so high,
+Like a diamond in the sky.''')
